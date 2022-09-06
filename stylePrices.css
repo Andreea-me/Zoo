@@ -1,0 +1,13 @@
+td{
+    width: 50%;
+    text-align: center;
+}
+
+tr, th{
+    text-align: center;
+    justify-content: center;
+}
+
+#program tr:nth-child(even){
+  height: 60px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styleIndex.css" />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="./styleContact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="./index.html"
+          ><img src="./images/logozoo.jpg" class="logo"
+        /></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <nav class="nav-bar">
+          <ul class="nav-items">
+            <li>
+              <a href="./informatii.html"
+                >Informatii utile.<i class="fas fa-caret-down"></i
+              ></a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li><a href="./program.html">Program</a></li>
+                  <li><a href="./preturi.html">Pret bilet</a></li>
+                  <li><a href="./rules.html">Reguli</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./atractii.html">Atractii principale </a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+      <div class="contactUs">
+        <div class="title">
+          <h2>Contacteaza-ne</h2>
+        </div>
+        <div class="box">
+          <div class="contact form">
+            <h3>Trimite un mesaj</h3>
+            <form action="">
+              <div class="formBox">
+                <div class="row50">
+                  <div class="inputBox">
+                    <span>Prenumele</span>
+                    <input type="text" placeholder="John" />
+                  </div>
+                  <div class="inputBox">
+                    <span>Numele de familie</span>
+                    <input type="text" placeholder="Doe" />
+                  </div>
+                </div>
+                <div class="row50">
+                  <div class="inputBox">
+                    <span>Email</span>
+                    <input type="text" placeholder="johndoe@email.com" />
+                  </div>
+                  <div class="inputBox">
+                    <span>Telefon</span>
+                    <input type="text" placeholder="+40 761523636" />
+                  </div>
+                </div>
+                <div class="row100">
+                  <div class="inputBox">
+                    <span>Mesaj</span>
+                    <textarea
+                      placeholder="Scrie-ne ceva"
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row100">
+                  <div class="inputBox">
+                    <input type="submit" value="Trimite" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!----Info box---->
+          <div class="contact info">
+            <h3>Contact info</h3>
+            <div class="infoBox">
+              <div>
+                <span><ion-icon name="location-outline"></ion-icon></span>
+                <p id="adress">Calea Dumbrăvii nr. 142, Sibiu, România</p>
+              </div>
+              <div>
+                <span><ion-icon name="mail-outline"></ion-icon></span>
+                <a href="mailto:loremipsum@email.com">loremipsum@email.com</a>
+              </div>
+              <div>
+                <span><ion-icon name="call-outline"></ion-icon></span>
+                <a href="tel:+40 726 826 272">+40 726 826 272</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.514920553528!2d24.123167715530585!3d45.76086987910555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474c5d11ef4dbe3d%3A0x3ba19a098e088c01!2sZoo%20Sibiu!5e0!3m2!1sro!2sro!4v1652121396951!5m2!1sro!2sro"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-info">
+          <h4>GRADINA ZOOLOGICA SIBIU</h4>
+          <ul>
+            <li>Telefon: +41076152627</li>
+            <li>Calea Dumbrăvii nr. 142, Sibiu, Romania</li>
+          </ul>
+        </div>
+        <div class="sponsori">
+          <h3>Sponsori:</h3>
+          <img
+            src="./images/CSU_Sibiu_logo.png"
+            alt="CSU_Sibiu_logo"
+            id="sponsori-img"
+          />
+          <img src="./images/conti.png" alt="conti" id="sponsori-img" />
+          <img src="./images/refresh.png" alt="refresh" id="sponsori-img" />
+        </div>
+      </footer>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

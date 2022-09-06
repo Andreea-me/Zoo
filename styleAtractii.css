@@ -1,0 +1,24 @@
+main{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "section"
+  "footer";
+}
+
+section{
+  grid-area: section;
+}
+
+.attraction-pic{
+    width: 370px;
+}
+
+h1{
+  color: var(--title);
+  z-index: 999999;
+  margin: 50px;
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Rubik Moonrocks', cursive;
+}
